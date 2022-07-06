@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.text {
+  display: flex;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +40,39 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #26b389;
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 9px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: rgb(63, 58, 52);
+  color: rgb(255, 255, 255);
+}
+
+.navbar a.active {
+  background-color: #b36a26;
+  color: rgb(90, 68, 68);
+}
+
+.router {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      background: #080816;
+    }

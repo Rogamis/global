@@ -1,0 +1,30 @@
+.homePageStyle {
+    display: flex;
+    flex: 1;
+    background: url(../../images/leaves-1835780.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  justify-content: center;
+}
+
+.text {
+  position: absolute;
+width: 503px;
+height: 54px;
+margin-bottom: 938px;
+margin-left: 1311px;
+
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.textHomePage {
+  background-color:#ffffff;
+}
