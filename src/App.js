@@ -6,14 +6,12 @@ import "./App.css"
 import TodoApp from "./pages/TodoApplication/TodoApp";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 
-
-
 function App() {
     return (
       <Router>
         <nav className="navbar">
           <Link to="/" className="HomeNav"> Home</Link>
-          <Link to="/ProfillePage" className="profile">ProfilePage</Link>
+          <Link to="/ProfillePage" className="profile">Profile Page</Link>
           <Link to="/WeatherPage" className="weather">Weather</Link>
           <Link to="/TodoApp" className="todoApp">To Do Application</Link>
         </nav>
